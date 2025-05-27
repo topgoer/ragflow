@@ -190,3 +190,16 @@ dist
 # Ignore the Temp folder
 Temp/
 
+# Ignore environment variable files
+.env
+# Ignore service configuration files
+docker/service_conf.yaml
+
+# Ignore local docker-compose backup file
+docker/docker-compose-base.yml
+
+# Ignore local environment and configuration files
+docker/.env
+docker/docker-compose-base.yml
+docker/service_conf.yaml
+
